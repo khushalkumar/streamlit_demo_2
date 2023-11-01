@@ -2,4 +2,3 @@ yfinance
 streamlit
 pandas
 datetime
-pickle
