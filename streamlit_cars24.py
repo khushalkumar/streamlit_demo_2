@@ -6,7 +6,7 @@ import pandas as pd
 cars_df = pd.read_csv("cars24-car-price.csv")
 
 st.write("# Cars24 Used Car price prediction")
-st.info("Beware: No EDA has been done except encoding.")
+st.info("NOTE: No EDA has been done except encoding.")
 st.dataframe(cars_df.head())
 
 encode_dict = {
